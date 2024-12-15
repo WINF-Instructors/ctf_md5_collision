@@ -5,9 +5,12 @@ The idea is that for the check, the program just compares the MD5 hash and check
 It works with 
 
 {"option": "register"}
+
 {"username":"TEXTCOLLBYfGiJUETHQ4hAcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak", "password":"1234"}
+
 {"option":"login"}
-{"username":"TEXTCOLLBYfGiJUETHQ4hEcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak", "password: "1234"}
+
+{"username":"TEXTCOLLBYfGiJUETHQ4hEcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak", "password": "1234"}
 
 This is because both usernames have the same MD5 hash, but they are different.
 For possible collisions, just google MD5 collisions or use tools like hashclash (https://marc-stevens.nl/p/hashclash/).
